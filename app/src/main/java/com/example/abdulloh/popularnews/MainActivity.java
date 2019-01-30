@@ -45,7 +45,7 @@ import static com.example.abdulloh.popularnews.api.ApiClient.token;
 
 public class   MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener{
 
-    public static final String token = "OkM_9V_ilZ4Phaqwcjv2rs25HsOt7Qco";
+    public static final String token = "token";
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private List<Article> articles = new ArrayList<>();

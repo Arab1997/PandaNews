@@ -23,7 +23,7 @@ public interface ApiInterface {
     );*/
 
     @Headers({
-            "Authorization", "Bearer "+ "OkM_9V_ilZ4Phaqwcjv2rs25HsOt7Qco"
+            "Authorization", "Bearer "+ "TOken"
     })
 
     /*@GET("api/Profiles/GetProfile?id={id}")

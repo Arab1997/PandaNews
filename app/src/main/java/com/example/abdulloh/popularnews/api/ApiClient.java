@@ -31,7 +31,7 @@ public class ApiClient {
             @Override
             public Response intercept(Chain chain) throws IOException {
                 Request newRequest = chain.request().newBuilder()
-                        .addHeader("Authorization", "Bearer " + "OkM_9V_ilZ4Phaqwcjv2rs25HsOt7Qco")
+                        .addHeader("Authorization", "Bearer " + "token")
                         .build();
                 return chain.proceed(newRequest);
             }
@@ -52,7 +52,7 @@ public class ApiClient {
     public interface APIService {
 
                 @Headers({
-                        "Authorization", "Bearer "+ "OkM_9V_ilZ4Phaqwcjv2rs25HsOt7Qco"
+                        "Authorization", "Bearer "+ "token"
                 })
 
                 @GET("api/Profiles/GetProfile?id={id}")
